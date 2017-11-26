@@ -15,7 +15,7 @@
 	<name>jasypt-bootstrap</name>
 
 	<properties>
-		<jasypt.version>1.9</jasypt.version>
+		<jasypt.version>1.16</jasypt.version>
 		<bouncycastle.version>1.57</bouncycastle.version>
 	</properties>
 

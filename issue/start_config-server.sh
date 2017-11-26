@@ -8,7 +8,7 @@ CONFIG_REPO_PASSWORD=
 CONFIG_SERVER_PORT=11001
 DEBUG="-Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=6005,suspend=n"
 
-if [[ $CONFIG_REPO_USERNAME -eq "" || $CONFIG_REPO_PASSWORD -eq "" ]]
+if [[ $CONFIG_REPO_USERNAME = "" || $CONFIG_REPO_PASSWORD = "" ]]
 then
 	echo "Please set the CONFIG_REPO_USERNAME and CONFIG_REPO_PASSWORD variables first."
 	exit -1
